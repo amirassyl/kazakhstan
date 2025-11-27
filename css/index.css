@@ -1,0 +1,21 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    overflow-x: hidden; /* Prevents horizontal scroll */
+    background: #000;
+  }
+  
+  #root {
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  /* Makes the page scrollable for our scroll-based animation */
+  .scroll-container {
+    height: 500vh; /* 5x viewport height = lots of scroll space */
+  }
